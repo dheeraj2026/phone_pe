@@ -3,7 +3,7 @@ import sqlite3
 import pandas as pd
 
 # Connect to SQLite DB
-conn = sqlite3.connect("../db/phonepe.db")
+conn = sqlite3.connect("phonepe.db")
 
 st.title("📊 PhonePe Transactions Dashboard")
 
