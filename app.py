@@ -68,5 +68,9 @@ fig4 = px.pie(df_type, names='transaction_type', values='amount', title='🧁 Tr
 st.plotly_chart(fig4, use_container_width=True)
 
 # Close DB
+<<<<<<< HEAD
 conn.close()
 
+=======
+conn.close()
+>>>>>>> 9b44760 (Updated app.py with Plotly charts and KPIs)
